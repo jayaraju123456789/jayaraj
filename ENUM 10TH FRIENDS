@@ -1,0 +1,23 @@
+enum Color{
+    ANIL,RAMESH, SIDDARDHA, GOPI,RAMIREDDY,SADHIK;
+    
+}
+public class Main{
+    public static void main(String rk[]){
+       Color t1 = Color.GOPI;
+       switch(t1){
+           case ANIL:
+           System.out.println("he is a naughty guy");
+           break;
+          case RAMESH:
+          System.out.println("cleanless man");
+          break;
+          case SIDDARDHA:
+          System.out.println("Inteligent boy");
+          break;
+          default :
+          System.out.println("all are my 10Th friends");
+          
+       }
+    }
+    }
